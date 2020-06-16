@@ -1,0 +1,50 @@
+h1, h2 {
+    text-align: center;
+}
+
+#contenido {
+    margin-top: 40px;
+}
+.borrar-tweet,
+.borrar-tweet:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+ul#tweet-list li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    padding: 1rem 0;
+    margin: 0;
+    align-content: center;
+    border-top: 1px solid #fafafa;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.delete-tweet{
+    background-color: red;
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-size: 0.8rem;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 50%;
+    border: 0;
+    justify-content: center;
+}
+
+.delete-tweet:hover{
+    background-color: rgb(189, 27, 27);
+    transition: 0.3s;
+    color: white;
+}
